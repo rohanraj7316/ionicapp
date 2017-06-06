@@ -1,0 +1,15 @@
+<h1>This is my first angular2 app.</h1>
+<h2>{{form}}</h2>
+<form>
+    <div class="form-group">
+    <label for="email">Email</label>
+        <input type="email" id="email" name="email"/>
+    </div>
+    <div class="form-group">
+    <label for="password">Password</label>
+        <input type="text" [(ngModel)]="hero.name" id="password" name="password"/>
+    </div>
+    <button class="button">Submit</button>
+    this is my name
+    {{hero.name}}
+</form>
